@@ -28,8 +28,3 @@ A look at the in-game UI (Star brand). Custom radial, Street Tablet, race HUDs a
     <figcaption>Star-brand design system</figcaption>
   </figure>
 </div>
-
-::: tip For the owner
-These are branded placeholders. Replace them with real screenshots — see
-`public/screenshots/README.md` for how to capture and where to drop the files.
-:::

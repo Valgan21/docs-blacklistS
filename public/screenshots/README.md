@@ -1,30 +1,15 @@
 # Screenshots
 
-The Showcase page uses these images. Right now they're **branded SVG placeholders** — replace
-them with **real PNG screenshots** of your UI.
+The **Showcase** page uses these images. They're branded placeholders for now — replace them
+with **real screenshots** of the UI.
 
-## How to capture (easiest, no live server)
+## Add yours
 
-1. From the script source: `cd web && npm run dev` → open `http://localhost:5173`.
-2. Use the **DEV preview bar** at the top to switch surfaces (styleguide, radial, tablet, hud-*, heat, challenge…).
-3. Screenshot each surface (Win+Shift+S, or your tool). Recommended size **1600×900** (16:9).
+Capture each surface (in-game or from the UI preview) at **16:9 (~1600×900)** and save the PNGs
+here with these names:
 
-You can also capture them **in-game** for the most authentic look.
+`radial.png` · `tablet.png` · `hud.png` · `heat.png` · `challenge.png` · `styleguide.png`
 
-## Files to add
+Then, in `showcase.md` (and `es/showcase.md`), change each `…/NAME.svg` to `.png`.
 
-Save your PNGs here with **these exact names** (the Showcase page points to them):
-
-| File | Surface |
-|---|---|
-| `radial.png` | Radial menu |
-| `tablet.png` | Street Tablet |
-| `hud.png` | Race HUD (chase/sprint) |
-| `heat.png` | Heat meter |
-| `challenge.png` | Challenge prompt |
-| `styleguide.png` | Style guide |
-
-Then, in `showcase.md` (and `es/showcase.md`), change each `src="/screenshots/NAME.svg"` to
-`.png`. Or just delete the `.svg` once your `.png` is in place and update the extension.
-
-> Tip: keep them optimized (< ~400 KB each) so the docs load fast.
+> Keep them optimized (< ~400 KB each) so the docs load fast.

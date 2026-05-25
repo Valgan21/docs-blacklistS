@@ -7,7 +7,7 @@ export default defineConfig({
   description: 'Underground street racing system for FiveM — REP, Blacklist Top 10, Pink Slips, Heat, Race Hubs & a premium React UI.',
   base: '/docs-blacklistS/',
   cleanUrls: true,
-  appearance: 'dark',
+  appearance: 'force-dark', // solo modo oscuro (sin versión blanca ni toggle)
   lastUpdated: true,
 
   // `cfg` (server.cfg) no es un lenguaje de Shiki; lo resaltamos como ini.

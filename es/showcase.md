@@ -28,8 +28,3 @@ Un vistazo a la UI in-game (marca Star). Radial propio, Street Tablet, HUDs de c
     <figcaption>Sistema de diseño marca Star</figcaption>
   </figure>
 </div>
-
-::: tip Para el dueño
-Son placeholders con la marca. Reemplazalos por capturas reales — mirá
-`public/screenshots/README.md` para cómo capturarlas y dónde dejarlas.
-:::
