@@ -2,7 +2,7 @@
 
 Bilingual (EN/ES) documentation website built with **[VitePress](https://vitepress.dev)** and
 deployed to **GitHub Pages**. This folder is meant to be its own GitHub repo
-(`https://github.com/Valgan21/S-blacklist`).
+(`https://github.com/Valgan21/docs-blacklistS`).
 
 ## Local preview
 
@@ -32,12 +32,12 @@ es/index.md  es/guide/    Spanish pages
    git add .
    git commit -m "docs: bilingual VitePress site"
    git branch -M main
-   git remote add origin https://github.com/Valgan21/S-blacklist.git
+   git remote add origin https://github.com/Valgan21/docs-blacklistS.git
    git push -u origin main
    ```
 2. On GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. The workflow builds & deploys on every push. Site URL:
-   **https://valgan21.github.io/S-blacklist/**
+   **https://valgan21.github.io/docs-blacklistS/**
 
-> The `base` in `.vitepress/config.mts` is set to `/S-blacklist/` to match the repo name.
+> The `base` in `.vitepress/config.mts` is set to `/docs-blacklistS/` to match the repo name.
 > If you rename the repo or use a custom domain, update `base` accordingly.
