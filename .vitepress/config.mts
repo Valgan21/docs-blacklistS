@@ -5,7 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 's-blacklist',
   description: 'Underground street racing system for FiveM — REP, Blacklist Top 10, Pink Slips, Heat, Race Hubs & a premium React UI.',
-  base: '/S-blacklist/',
+  base: '/docs-blacklistS/',
   cleanUrls: true,
   appearance: 'dark',
   lastUpdated: true,
@@ -21,7 +21,7 @@ export default defineConfig({
 
   themeConfig: {
     search: { provider: 'local' },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Valgan21/S-blacklist' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Valgan21/docs-blacklistS' }],
     footer: {
       message: 'Proprietary — for licensed customers.',
       copyright: '© 2026 s-blacklist',
@@ -37,7 +37,7 @@ export default defineConfig({
           { text: 'Guide', link: '/guide/installation' },
           { text: 'Showcase', link: '/showcase' },
           { text: 'API', link: '/guide/api' },
-          { text: 'Buy', link: 'https://github.com/Valgan21/S-blacklist' },
+          { text: 'Buy', link: 'https://github.com/Valgan21/docs-blacklistS' },
         ],
         sidebar: {
           '/guide/': [
@@ -71,7 +71,7 @@ export default defineConfig({
           { text: 'Guía', link: '/es/guide/installation' },
           { text: 'Galería', link: '/es/showcase' },
           { text: 'API', link: '/es/guide/api' },
-          { text: 'Comprar', link: 'https://github.com/Valgan21/S-blacklist' },
+          { text: 'Comprar', link: 'https://github.com/Valgan21/docs-blacklistS' },
         ],
         sidebar: {
           '/es/guide/': [
